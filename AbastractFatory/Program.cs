@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AbastractFatory
 {
@@ -10,6 +6,11 @@ namespace AbastractFatory
     {
         static void Main(string[] args)
         {
+            Carro c1 = ExecutaAbstractFactory.montarcarro("Luxo");
+            Carro c2 = ExecutaAbstractFactory.montarcarro("Popular");
+
+            
+            Console.ReadKey();
         }
     }
 }

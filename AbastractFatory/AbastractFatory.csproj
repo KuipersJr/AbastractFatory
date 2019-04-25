@@ -42,8 +42,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BluetoothPlayer.cs" />
+    <Compile Include="CaroFactory.cs" />
+    <Compile Include="Carro.cs" />
+    <Compile Include="CarroLuxoFactory.cs" />
+    <Compile Include="CarroPopular.cs" />
+    <Compile Include="CDPlayer.cs" />
+    <Compile Include="ExecutaAbstractFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Roda.cs" />
+    <Compile Include="RodaLigaLeve.cs" />
+    <Compile Include="RodaSimples.cs" />
+    <Compile Include="Som.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
